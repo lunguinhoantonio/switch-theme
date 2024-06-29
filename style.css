@@ -40,3 +40,8 @@ body {
     display: flex;
     justify-content: center;
 }
+@media screen and (max-width: 768px){
+    .switch-theme-name {
+        font-size: 2rem;
+    }
+}
