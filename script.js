@@ -4,14 +4,18 @@ function switchTheme() {
 
     const titleButton = document.querySelector('.switch-theme');
     const textButton = document.querySelector('.switch-theme');
-    const h1 = document.querySelector('h1');
+    const h1Name = document.querySelector('.switch-theme-name');
+    const h1Emoji = document.querySelector('.emoji')
+
     if(body.classList.contains('dark')){
-        titleButton.setAttribute('title', 'Trocar tema para claro (tristeza)');
+        titleButton.setAttribute('title', 'Clique para trocar tema para claro (tristeza)');
         textButton.innerHTML = 'Trocar para tema claro';
-        h1.innerHTML = 'Tema Escuro :D';
+        h1Name.innerHTML = 'Tema Escuro :D';
+        h1Emoji.innerHTML = '😎😍🥰😘🤩😝😉😊😃';
     } else {
-        titleButton.setAttribute('title', 'Trocar tema para escuro (felicidade)');
+        titleButton.setAttribute('title', 'Clique para trocar tema para escuro (felicidade)');
         textButton.innerHTML = 'Trocar para tema escuro';
-        h1.innerHTML = 'Tema Claro :(';
+        h1Name.innerHTML = 'Tema Claro :(';
+        h1Emoji.innerHTML = '😥😔😭😩😖😰🤕🤮🤢';
     }
 }

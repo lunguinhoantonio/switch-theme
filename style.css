@@ -30,8 +30,13 @@ body {
     background-color: var(--text-color);
     transition: 250ms;
 }
-h1 {
+.switch-theme-name {
     font-size: 4rem;
     color: var(--text-color);
     transition: 350ms;
+}
+
+.emoji {
+    display: flex;
+    justify-content: center;
 }
